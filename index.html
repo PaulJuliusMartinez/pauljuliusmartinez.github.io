@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Julius Martinez</title>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@CodeIsTheEnd" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pauljuliusmartinez.github.io" />
+    <meta property="og:title" content="jless | plaintextsports.com" />
+    <meta property="og:image" content="https://pauljuliusmartinez.github.io/social.png" />
+    <link rel="icon" href="https://jless.io/assets/logo/mascot.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+    <style>
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0 auto;
+        padding: 16px;
+        max-width: 800px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 22px;
+      }
+
+      h1, h2, h3, h4 {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+      }
+
+      @media (max-width: 540px) {
+        body {
+          font-size: 19px;
+        }
+      }
+
+      .big-thing {
+        margin: 32px 0;
+        width: 100%;
+        border: 4px solid black;
+        border-radius: 16px;
+        padding: 16px;
+      }
+
+      .big-thing h3 {
+        margin: 0;
+      }
+
+      .big-thing a, .big-thing a:visited {
+        color: black;
+      }
+
+      #jless {
+        margin: 16px auto;
+        width: min(100%, 360px);
+      }
+
+      #plaintextsports {
+        margin: 16px 0;
+        width: 100%;
+        font-family: Courier, monospace;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+      }
+
+      #plaintextsports a, #plaintextsports a:visited {
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Paul Julius Martinez</h1>
+    <div>These are some things I've made.</div>
+    <div class="big-thing jless">
+      <h3>jless</h3>
+      <div style="width: 100%; text-align: center;">
+        <a href="https://jless.io">
+          <img id="jless" src="https://jless.io/assets/logo/text-logo-with-mascot.svg" />
+        </a>
+      </div>
+      <div style="display: flex; justify-content: space-between;">
+        <span>jless is a command-line JSON viewer written in Rust</span>
+        <a href="https://github.com/PaulJuliusMartinez/jless">GitHub</a>
+      </div>
+    </div>
+    <div class="big-thing jless">
+      <h3>plaintextsports.com</h3>
+      <div id="plaintextsports">
+        <a href="https://plaintextsports.com">
+          <div>plain</div>
+          <div>text</div>
+          <div>sports</div>
+          <div>.com</div>
+        </a>
+      </div>
+      <div>
+        I got sick of waiting for ESPN to load on my phone, so I made a site that shows live sports scores, play-by-play and box scores in plain text and loads instantly. No frills, and no waiting, just plain text sports.
+      </div>
+    </div>
+  </body>
+</html>
